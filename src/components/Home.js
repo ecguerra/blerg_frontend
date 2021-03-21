@@ -1,7 +1,35 @@
+import { Link } from 'react-router-dom'
+
 const Home = () => {
     return(
-        <div className='App'>
-            Hello
+        <div className='home'>
+            <div className='landing-container'>
+                <h1>Welcome to Blerg!</h1>
+                <p>Hate blogging? Us too. Come on in and join us!</p>
+                <Link to='#'><div className='btn-register'>Start your Blerg!</div></Link>
+
+            </div>
+            <div className='article-container'>
+                <h2>What is a Blerg!?</h2>
+                <p>Blerg! is the new blogging platform for people for whom blogging has just never "stuck."
+                Maybe you've tried to blog with good intention, but then abandon your site after a few short weeks.
+                For some of us, blogging just doesn't come naturally...
+                </p>
+                <Link to='#'>Keep Reading</Link>
+            </div>
+            <div className='article-container'>
+                <h2>Blerging Tips</h2>
+                <p>We get it, sometimes you just don't feel like blogging. What should you talk about, how frequently should you post, is anyone reading this?
+                While we can't write your Blerg! for you, we can help you break through that self-doubt and writer's block with these tips...
+                </p>
+                <Link to='#'>Keep Reading</Link>
+            </div>
+            <div className='article-container'>
+                <h2>Blergspiration</h2>
+                <p>Our weekly roundup of Blerging prompts, images, and ideas 
+                </p>
+                <Link to='#'>Keep Reading</Link>
+            </div>
         </div>
     )
 }
