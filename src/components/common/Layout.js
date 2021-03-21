@@ -9,8 +9,9 @@ const Layout = props => {
                 <div className='banner'>
                     <Link to='/'><div className='logo'>BLERG!</div></Link>{' '}
                     <div>
-                        <div>
-                            <Link to='#'>Log in</Link>{' '}
+                        <div className='login-links'>
+                            <Link to='#'>Log in</Link>
+                            {' '}/{' '}
                             <Link to='#'>Sign up</Link> 
                         </div>
                         <form>
