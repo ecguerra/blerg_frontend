@@ -10,3 +10,6 @@ First up, I'm learning Sass/SCSS. That means I technically need to build this si
 ## Frontend Tech
 * React
 * Sass/SCSS
+
+## Acknowledgements
+* Homepage Illustration by [Freepik Storyset](https://storyset.com/work)
