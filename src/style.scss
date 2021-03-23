@@ -7,6 +7,11 @@ $color-secondary-dark: #2f2a2c;
 
 $body-font: 'Yantramanav', sans-serif;
 
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+}
+
 html, body {
     height: 100vh;
     font-family: $body-font;
