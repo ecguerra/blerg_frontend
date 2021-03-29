@@ -7,7 +7,7 @@ const Layout = props => {
         <>
             <header>
                 <div className='banner'>
-                    <Link to='/'><div className='logo'>BLERG!</div></Link>{' '}
+                    <Link to='/'><div className='logo'>Blerg!</div></Link>{' '}
                     <div>
                         <div className='login-links'>
                             <Link to='#'>Log in</Link>
