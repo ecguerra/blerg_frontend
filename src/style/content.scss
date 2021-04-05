@@ -28,6 +28,9 @@
 
         .author-tag {
             color: $color-primary-med;
+            &:hover {
+                color: $color-pop;
+            }
         }
     }
 

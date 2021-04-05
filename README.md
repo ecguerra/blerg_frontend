@@ -11,5 +11,10 @@ First up, I'm learning Sass/SCSS. That means I technically need to build this si
 * React
 * Sass/SCSS
 
+## Progress
+* [x] Landing Page
+* [x] About/Content Page
+* [x] Refactor with config file
+
 ## Acknowledgements
 * Homepage Illustration by [Freepik Storyset](https://storyset.com/work)
