@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-import '../home.scss'
+import '../style/home.scss'
 
 const Home = () => {
     return(
@@ -24,7 +24,7 @@ const Home = () => {
                         For some of us, blogging just doesn't come naturally...
                         </p>
                     </div>
-                    <Link to='#' className='btn-continue'>Keep Reading</Link>
+                    <Link to='/about' className='btn-continue'>Keep Reading</Link>
                 </div>
                 <div className='article'>
                     <div>

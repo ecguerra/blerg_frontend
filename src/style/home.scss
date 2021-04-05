@@ -1,35 +1,4 @@
-$color-primary-light: #c6ebbb;
-$color-primary-med: #a7c0a6;
-$color-primary-dark: #605759;
-$color-secondary-light: #EBEBE9;
-$color-secondary-dark: #2f2a2c;
-$color-pop: #cfa8e0;
-
-@mixin midtext {
-    width: 100%;
-    text-align: left;
-}
-
-@mixin flex-center($dir) {
-    display: flex;
-    flex-direction: $dir;
-    align-items: center;
-    justify-content: center;
-}
-
-%btn {
-    width: 25%;
-    padding: 0.5rem 1rem;
-    border-radius: 1.5rem;;
-    font-weight: 500;
-    color: $color-secondary-dark;
-
-    &:hover {
-        background-color:$color-pop;
-        color: $color-secondary-light;
-        transition: 0.2s;
-    }
-}
+@import './config.scss';
 
 .home {
     @include flex-center(column);
@@ -75,7 +44,7 @@ $color-pop: #cfa8e0;
 
     .landing-img {
         width: 40%;
-        background: url('./img/Blog-post-bro-green.png');
+        background: url('../img/Blog-post-bro-green.png');
         background-size: 80%;
         background-repeat: no-repeat;
         background-position: center;
@@ -105,7 +74,7 @@ $color-pop: #cfa8e0;
         @extend %btn;
         background-color: $color-primary-light;
         margin: 0.5rem 0;
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
 }

@@ -1,0 +1,111 @@
+@import './config.scss';
+
+.content-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.content {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $color-secondary-dark;
+
+    h1 {
+        width: 80%;
+        font-weight: 500;
+        font-size: 2.5rem;
+        padding: 1.5rem 0 0.3rem 0;
+    }
+
+    h2 {
+        width: 80%;
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin: 0 0 0.8rem 0;
+
+        .author-tag {
+            color: $color-primary-med;
+        }
+    }
+
+    p {
+        width: 80%;
+        font-size: 1rem;
+        font-weight: 400;
+        margin: 0.5rem 0;
+
+        .cta {
+            color: $color-primary-med;
+
+            &:hover {
+                color: $color-pop;
+            }
+        }
+    }
+}
+
+.sidebar {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    .form-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: 3rem 0;
+        padding: 0 1rem;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            margin: 1rem 0;
+            width: 80%;
+
+            input {
+                margin: 0.3rem 0;
+                padding: 0.2rem;
+                width: 80%;
+
+                &[type='submit'] {
+                    width: 50%;
+                    border: none;
+                    border-radius: 1.5rem;
+                    padding: 0.5rem;
+                    font-weight: 600;
+                    background-color: $color-primary-light;
+
+                    &:hover {
+                        background-color: $color-pop;
+                        color: $color-secondary-light;
+                        transition: 0.2s;
+                    }
+                }
+            }
+        }
+    }
+
+    .social {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem;
+        border: 1px solid green;
+
+        .social-container {
+            display: flex;
+            flex-direction: space-between;
+            border: 1px solid blue;
+        }
+    }
+}

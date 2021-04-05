@@ -1,0 +1,13 @@
+%btn {
+    width: 25%;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;;
+    font-weight: 500;
+    color: $color-secondary-dark;
+
+    &:hover {
+        background-color:$color-pop;
+        color: $color-secondary-light;
+        transition: 0.2s;
+    }
+}

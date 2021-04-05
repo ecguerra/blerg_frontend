@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-import '../../layout.scss'
+import '../../style/layout.scss'
 
 const Layout = props => {
     return(
@@ -20,10 +20,10 @@ const Layout = props => {
                     </div>
                 </div>
                 <nav>
-                    <Link to='#'>About</Link>{' '}
+                    <Link to='/about'>About</Link>{' '}
                     <Link to='#'>Trending</Link>{' '}
                     <Link to='#'>Topics</Link>{' '}
-                    <Link to='#'>Random Blerg!</Link>
+                    <Link to='#'>The Blerg Blerg!</Link>
                 </nav>
             </header>
             <div>{props.children}</div>
