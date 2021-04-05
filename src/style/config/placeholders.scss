@@ -1,9 +1,11 @@
 %btn {
     width: 25%;
     padding: 0.5rem 1rem;
-    border-radius: 1.5rem;;
+    border-radius: 1.5rem;
+    border: none;
     font-weight: 500;
     color: $color-secondary-dark;
+    text-align: center;
 
     &:hover {
         background-color:$color-pop;
